@@ -14,6 +14,8 @@
 | 权限 | **只有 `VIBRATE`（可选震动反馈）** —— 没有 INTERNET |
 | 签名 | 自签 v2 + v3 |
 
+**直接下载：** [最新 APK](https://github.com/Veyra-beep/xiaohan-skipper/releases/latest) ｜ 手机上点开即可安装
+
 ---
 
 ## 一、功能
