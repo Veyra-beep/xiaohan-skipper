@@ -1,0 +1,24 @@
+# 构建工具链（JDK + Android SDK，约 1 GB，不入库）
+/toolchain/
+
+# 构建中间产物
+/build/
+
+# 构建输出（APK 走 Release 附件，不进 git）
+/*.apk
+/*.idsig
+/dist/*.apk
+/dist/*.idsig
+
+# 签名私钥 —— 绝不入库
+/keystore.jks
+*.jks
+*.keystore
+
+# 图标改造的中间候选图（source.jpg 保留，可重建）
+/app/tools/icon-src/cand*.png
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
